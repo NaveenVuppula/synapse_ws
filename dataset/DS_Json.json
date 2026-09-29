@@ -1,0 +1,19 @@
+{
+	"name": "DS_Json",
+	"properties": {
+		"linkedServiceName": {
+			"referenceName": "synapse-ws-naveen-WorkspaceDefaultStorage",
+			"type": "LinkedServiceReference"
+		},
+		"annotations": [],
+		"type": "Json",
+		"typeProperties": {
+			"location": {
+				"type": "AzureBlobFSLocation",
+				"folderPath": "sales",
+				"fileSystem": "raw"
+			}
+		},
+		"schema": {}
+	}
+}
