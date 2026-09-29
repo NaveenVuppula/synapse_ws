@@ -1,6 +1,7 @@
 {
 	"name": "trigger_lookup",
 	"properties": {
+		"description": "Trigger to run Lookup PL",
 		"annotations": [],
 		"runtimeState": "Started",
 		"pipelines": [
@@ -16,11 +17,11 @@
 			"recurrence": {
 				"frequency": "Day",
 				"interval": 1,
-				"startTime": "2026-09-29T03:05:00",
+				"startTime": "2026-09-28T11:24:00",
 				"timeZone": "Eastern Standard Time",
 				"schedule": {
 					"minutes": [
-						8
+						30
 					],
 					"hours": [
 						23
