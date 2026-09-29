@@ -131,7 +131,7 @@
 		],
 		"variables": {
 			"pl_output_cnt": {
-				"type": "String"
+				"type": "Integer"
 			}
 		},
 		"annotations": [],
